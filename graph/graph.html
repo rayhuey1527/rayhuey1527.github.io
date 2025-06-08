@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D3.js Enhanced Force Graph</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+      background-color: #f4f4f7;
+    }
+    svg {
+      width: 100vw;
+      height: 100vh;
+      cursor: grab;
+    }
+    .link {
+      stroke: #bbb;
+      stroke-width: 1.2px;
+      marker-end: url(#arrow);
+    }
+    .node {
+      stroke: #fff;
+      stroke-width: 1.5px;
+      cursor: pointer;
+    }
+    .label {
+      font-size: 12px;
+      text-anchor: middle;
+      pointer-events: none;
+      fill: #333;
+    }
+    .link-label {
+      font-size: 10px;
+      fill: #777;
+      pointer-events: none;
+    }
+    .highlight {
+      stroke: #e74c3c !important;
+      stroke-width: 3px !important;
+    }
+    .highlight-label {
+      fill: #000 !important;
+      font-weight: bold;
+    }
+    #searchBox {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      padding: 5px;
+      font-size: 14px;
+      z-index: 10;
+    }
+    .legend {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 5px;
+      padding: 5px;
+      font-size: 12px;
+      font-family: sans-serif;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 3px;
+    }
+    .legend-color {
+      width: 12px;
+      height: 12px;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+<input type="text" id="searchBox" placeholder="Search node..." />
+<div class="legend" id="legend"></div>
+<svg></svg>
+<script>
+  fetch('graph-links.json')
+          .then(res => res.json())
+          .then(links => {
+            const nodeMap = new Map();
+            links.forEach(({ source, target }) => {
+              if (!nodeMap.has(source)) nodeMap.set(source, { id: source, group: source[0] });
+              if (!nodeMap.has(target)) nodeMap.set(target, { id: target, group: target[0] });
+            });
+            const nodes = Array.from(nodeMap.values());
+
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+            const zoom = d3.zoom().on("zoom", ({ transform }) => g.attr("transform", transform));
+            const svg = d3.select("svg")
+                    .call(zoom)
+                    .append("g");
+
+            svg.append("defs").append("marker")
+                    .attr("id", "arrow")
+                    .attr("viewBox", "0 -5 10 10")
+                    .attr("refX", 28)
+                    .attr("refY", 0)
+                    .attr("markerWidth", 6)
+                    .attr("markerHeight", 6)
+                    .attr("orient", "auto")
+                    .append("path")
+                    .attr("d", "M0,-5L10,0L0,5")
+                    .attr("fill", "#999");
+
+            const color = d3.scaleOrdinal(d3.schemeCategory10);
+            const groupColors = new Map();
+
+            const simulation = d3.forceSimulation(nodes)
+                    .force("link", d3.forceLink(links).id(d => d.id).distance(150))
+                    .force("charge", d3.forceManyBody().strength(-600))
+                    .force("center", d3.forceCenter(width / 2, height / 2));
+
+            const g = svg.append("g");
+
+            const link = g.append("g")
+                    .selectAll("line")
+                    .data(links)
+                    .join("line")
+                    .attr("class", "link");
+
+            const edgeLabels = g.append("g")
+                    .selectAll("text")
+                    .data(links)
+                    .join("text")
+                    .attr("class", "link-label")
+                    .text(d => d.label);
+
+            const node = g.append("g")
+                    .selectAll("circle")
+                    .data(nodes)
+                    .join("circle")
+                    .attr("r", 18)
+                    .attr("fill", d => {
+                      const col = color(d.group);
+                      groupColors.set(d.group, col);
+                      return col;
+                    })
+                    .attr("class", "node")
+                    .on("click", highlightPath)
+                    .call(drag(simulation));
+
+            const label = g.append("g")
+                    .selectAll("text")
+                    .data(nodes)
+                    .join("text")
+                    .attr("class", "label")
+                    .text(d => d.id);
+
+            simulation.on("tick", () => {
+              link
+                      .attr("x1", d => d.source.x)
+                      .attr("y1", d => d.source.y)
+                      .attr("x2", d => d.target.x)
+                      .attr("y2", d => d.target.y);
+
+              edgeLabels
+                      .attr("x", d => (d.source.x + d.target.x) / 2)
+                      .attr("y", d => (d.source.y + d.target.y) / 2);
+
+              node
+                      .attr("cx", d => d.x)
+                      .attr("cy", d => d.y);
+
+              label
+                      .attr("x", d => d.x)
+                      .attr("y", d => d.y - 25);
+            });
+
+            function drag(simulation) {
+              return d3.drag()
+                      .on("start", (event, d) => {
+                        if (!event.active) simulation.alphaTarget(0.3).restart();
+                        d.fx = d.x;
+                        d.fy = d.y;
+                      })
+                      .on("drag", (event, d) => {
+                        d.fx = event.x;
+                        d.fy = event.y;
+                      })
+                      .on("end", (event, d) => {
+                        if (!event.active) simulation.alphaTarget(0);
+                        d.fx = null;
+                        d.fy = null;
+                      });
+            }
+
+            function highlightPath(event, d) {
+              node.classed("highlight", n => n.id === d.id);
+              link.classed("highlight", l => l.source.id === d.id || l.target.id === d.id);
+              edgeLabels.classed("highlight-label", l => l.source.id === d.id || l.target.id === d.id);
+              label.classed("highlight-label", l => l.id === d.id);
+            }
+
+            document.getElementById("searchBox").addEventListener("input", function () {
+              const query = this.value.toLowerCase();
+              const found = nodes.find(n => n.id.toLowerCase().includes(query));
+              if (found) {
+                highlightPath(null, found);
+
+                // 居中该节点
+                const svgElement = d3.select("svg");
+                const scale = d3.zoomTransform(svgElement.node()).k || 1;
+                const centerX = window.innerWidth / 2;
+                const centerY = window.innerHeight / 2;
+                const dx = centerX - found.x * scale;
+                const dy = centerY - found.y * scale;
+                svgElement.transition().duration(600).call(
+                        zoom.transform,
+                        d3.zoomIdentity.translate(dx, dy).scale(scale)
+                );
+              }
+            });
+
+            // 图例生成
+            const legend = d3.select("#legend");
+            groupColors.forEach((color, group) => {
+              legend.append("div")
+                      .attr("class", "legend-item")
+                      .html(`<div class="legend-color" style="background:${color}"></div>${group}`);
+            });
+          });
+</script>
+</body>
+</html>
