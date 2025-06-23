@@ -1,0 +1,1514 @@
+[
+  {
+    "code": "AD-广",
+    "antiCode": "DA-褡",
+    "setup": "R' D' U'",
+    "commutator": "[R' D R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AE-云",
+    "antiCode": "EA-足",
+    "setup": "U' R",
+    "commutator": "[R D R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AF-颈",
+    "antiCode": "FA-珐",
+    "setup": "U' R'",
+    "commutator": "[R' D' R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AG-银",
+    "antiCode": "GA-尜",
+    "setup": "R U R' U",
+    "commutator": "[R' D' R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AH-黑",
+    "antiCode": "HA-哈",
+    "setup": "R' D'",
+    "commutator": "[R' D R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AI-能",
+    "antiCode": "IA-埃",
+    "setup": "U' R'",
+    "commutator": "[R' D' R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AW-锥",
+    "antiCode": "WA-瓦",
+    "setup": "R D R' D'",
+    "commutator": "[R' D' R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AM-师",
+    "antiCode": "MA-抹",
+    "setup": "/",
+    "commutator": "[R' D R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AN-安",
+    "antiCode": "NA-钠",
+    "setup": "D",
+    "commutator": "[R' D' R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AO-奥",
+    "antiCode": "OA-章",
+    "setup": "R' D' R",
+    "commutator": "[R U' R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AP-pòu",
+    "antiCode": "PA-耙",
+    "setup": "D",
+    "commutator": "[R' D R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AQ-水",
+    "antiCode": "QA-洽",
+    "setup": "U'",
+    "commutator": "[R D' R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AR-臂",
+    "antiCode": "RA-鼠",
+    "setup": "R D' R'",
+    "commutator": "[R' D R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AS-航",
+    "antiCode": "SA-洒",
+    "setup": "U'",
+    "commutator": "[R D R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AT-鳌",
+    "antiCode": "TA-塌",
+    "setup": "D'",
+    "commutator": "[R' D' R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AX-斧",
+    "antiCode": "XA-虾",
+    "setup": "D R D' R'",
+    "commutator": "[R' D R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AY-环",
+    "antiCode": "YA-牙",
+    "setup": "D'",
+    "commutator": "[R' D R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "AZ-脏",
+    "antiCode": "ZA-杂",
+    "setup": "/",
+    "commutator": "[R' D' R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BD-凳",
+    "antiCode": "DB-碉",
+    "setup": "L' D",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BE-bee",
+    "antiCode": "EB-kin",
+    "setup": "U2R'/U R' U' R",
+    "commutator": "[R D R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BF-蝙",
+    "antiCode": "FB-镖",
+    "setup": "R U R' D'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BG-裹",
+    "antiCode": "GB-巴",
+    "setup": "R",
+    "commutator": "[R D R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BH-冰",
+    "antiCode": "HB-焙",
+    "setup": "R D",
+    "commutator": "[R D' R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BI-笔",
+    "antiCode": "IB-订",
+    "setup": "R' F' R D'",
+    "commutator": "[R D' R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BW-温",
+    "antiCode": "WB-波",
+    "setup": "R D'",
+    "commutator": "[R D' R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BM-白",
+    "antiCode": "MB-包",
+    "setup": "U2 R'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BN-瓣",
+    "antiCode": "NB-尿",
+    "setup": "R U/U'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BO-轰",
+    "antiCode": "OB-主",
+    "setup": "R",
+    "commutator": "[R D' R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BP-便",
+    "antiCode": "PB-匾",
+    "setup": "D' R D",
+    "commutator": "[R D R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BQ-架",
+    "antiCode": "QB-窃",
+    "setup": "R D' / L'",
+    "commutator": "[R D R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BR-胸",
+    "antiCode": "RB-肋",
+    "setup": "D R",
+    "commutator": "[R D' R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BS-扳",
+    "antiCode": "SB-柄",
+    "setup": "R D",
+    "commutator": "[R D R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BT-涕",
+    "antiCode": "TB-踏",
+    "setup": "R U/U'",
+    "commutator": "[R' D' R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BX-百",
+    "antiCode": "XB-豹",
+    "setup": "R U' R' D'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BY-捕",
+    "antiCode": "YB-布",
+    "setup": "L' D'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "BZ-鼻",
+    "antiCode": "ZB-嘴",
+    "setup": "L'",
+    "commutator": "[R' D' R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CD-菜",
+    "antiCode": "DC-稻",
+    "setup": "F",
+    "commutator": "[R' D' R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CE-册",
+    "antiCode": "EC-垂",
+    "setup": "U' R' F",
+    "commutator": "[R U R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CF-裁",
+    "antiCode": "FC-翡",
+    "setup": "R' U'",
+    "commutator": "[R' D' R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CG-橱",
+    "antiCode": "GC-棺",
+    "setup": "R'",
+    "commutator": "[R' D' R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CH-彩",
+    "antiCode": "HC-货",
+    "setup": "R' F",
+    "commutator": "[R U R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CI-刺",
+    "antiCode": "IC-晓",
+    "setup": "U' R' D'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CW-床",
+    "antiCode": "WC-餐",
+    "setup": "U' R' U",
+    "commutator": "[R U' R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CM-筹",
+    "antiCode": "MC-茅",
+    "setup": "R' U'",
+    "commutator": "[R U R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CN-国",
+    "antiCode": "NC-存",
+    "setup": "D R' U'",
+    "commutator": "[R U R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CO-葱",
+    "antiCode": "OC-兽",
+    "setup": "F R",
+    "commutator": "[R D' R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CP-唱",
+    "antiCode": "PC-劈",
+    "setup": "D R' U'",
+    "commutator": "[R U R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CQ-川",
+    "antiCode": "QC-芹",
+    "setup": "U' R U'",
+    "commutator": "[R' U R,D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CR-绕",
+    "antiCode": "RC-串",
+    "setup": "R U' R'",
+    "commutator": "[R' U R,D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CS-衫",
+    "antiCode": "SC-池",
+    "setup": "R' U/U'",
+    "commutator": "[R' D' R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CT-抽",
+    "antiCode": "TC-瓷",
+    "setup": "F",
+    "commutator": "[R U R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CX-草",
+    "antiCode": "XC-芫",
+    "setup": "R U' R'",
+    "commutator": "[R' D' R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CY-苍",
+    "antiCode": "YC-差",
+    "setup": "F",
+    "commutator": "[R U R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "CZ-橙",
+    "antiCode": "ZC-疮",
+    "setup": "R' U'",
+    "commutator": "[R U R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "DG-捣",
+    "antiCode": "GD-冻",
+    "setup": "L' D'",
+    "commutator": "[R D R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "DH-蹬",
+    "antiCode": "HD-蝶",
+    "setup": "R' D'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "DI-滴",
+    "antiCode": "ID-证",
+    "setup": "U R D",
+    "commutator": "[R D' R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "DW-碗",
+    "antiCode": "WD-数",
+    "setup": "R D R' D'",
+    "commutator": "[R' D' R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "DM-缎",
+    "antiCode": "MD-铆",
+    "setup": "/",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "DN-暖",
+    "antiCode": "ND-脑",
+    "setup": "D",
+    "commutator": "[R' D' R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "DO-肚",
+    "antiCode": "OD-神",
+    "setup": "R' D' R U'",
+    "commutator": "[R U' R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "DP-刀",
+    "antiCode": "PD-摄",
+    "setup": "D",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "DQ-凌",
+    "antiCode": "QD-脐",
+    "setup": "U/U'",
+    "commutator": "[R D' R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "DR-剁",
+    "antiCode": "RD-蠕",
+    "setup": "R D' R'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "DS-视",
+    "antiCode": "SD-丝",
+    "setup": "U/U' ",
+    "commutator": "[R D R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "DT-挞",
+    "antiCode": "TD-笛",
+    "setup": "D'",
+    "commutator": "[R D' R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "DX-象",
+    "antiCode": "XD-毒",
+    "setup": "D R D' R'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "DY-雁",
+    "antiCode": "YD-斗",
+    "setup": "D'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "DZ-坠",
+    "antiCode": "ZD-典",
+    "setup": "/",
+    "commutator": "[R' D' R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "EG-肝",
+    "antiCode": "GE-割",
+    "setup": "R",
+    "commutator": "[R D R',U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "EH-二",
+    "antiCode": "HE-河",
+    "setup": "R D",
+    "commutator": "[R D' R',U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "EI-垒",
+    "antiCode": "IE-躺",
+    "setup": "R D' R' D R",
+    "commutator": "[R D' R',U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "EW-露",
+    "antiCode": "WE-尾",
+    "setup": "U' R' F'",
+    "commutator": "[R U' R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "EM-哭",
+    "antiCode": "ME-模",
+    "setup": "U R'",
+    "commutator": "[R' D R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "EN-信",
+    "antiCode": "NE-镊",
+    "setup": "R U",
+    "commutator": "[R' D R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "EO-频",
+    "antiCode": "OE-鞋",
+    "setup": "R",
+    "commutator": "[R D' R',U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "EP-癫",
+    "antiCode": "PE-普",
+    "setup": "U R' D",
+    "commutator": "[R' D R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "EQ-均",
+    "antiCode": "QE-茄",
+    "setup": "R D'",
+    "commutator": "[R D R',U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "ER-耳",
+    "antiCode": "RE-热",
+    "setup": "D R",
+    "commutator": "[R D' R',U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "ES-勺",
+    "antiCode": "SE-色",
+    "setup": "U' R",
+    "commutator": "[R U' R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "ET-外",
+    "antiCode": "TE-特",
+    "setup": "R U",
+    "commutator": "[R' D' R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "EX-口",
+    "antiCode": "XE-蝎",
+    "setup": "R U R'2 U'",
+    "commutator": "[R U R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "EY-鳄",
+    "antiCode": "YE-野",
+    "setup": "R U R'",
+    "commutator": "[R' D' R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "EZ-儿",
+    "antiCode": "ZE-泽",
+    "setup": "U' R' F",
+    "commutator": "[R U R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "FG-箍",
+    "antiCode": "GF-灭",
+    "setup": "R'",
+    "commutator": "[R' D' R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "FH-饭",
+    "antiCode": "HF-幅",
+    "setup": "U R' F",
+    "commutator": "[R U R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "FI-火",
+    "antiCode": "IF-衣",
+    "setup": "U R",
+    "commutator": "[R D R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "FW-窝",
+    "antiCode": "WF-文",
+    "setup": "U' R'",
+    "commutator": "[R' D R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "FM-收",
+    "antiCode": "MF-面",
+    "setup": "R' U'2",
+    "commutator": "[R U R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "FN-肥",
+    "antiCode": "NF-奶",
+    "setup": "U R' F'",
+    "commutator": "[R U' R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "FO-佛",
+    "antiCode": "OF-顶",
+    "setup": "R2 U",
+    "commutator": "[R' U' R,D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "FP-发",
+    "antiCode": "PF-芙",
+    "setup": "U' R' U'",
+    "commutator": "[R D' R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "FQ-番",
+    "antiCode": "QF-阀",
+    "setup": "U2 R",
+    "commutator": "[R D' R',U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "FR-缝",
+    "antiCode": "RF-管",
+    "setup": "U R",
+    "commutator": "[R U' R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "FS-闪",
+    "antiCode": "SF-沙",
+    "setup": "R' U",
+    "commutator": "[R' D' R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "FT-废",
+    "antiCode": "TF-屠",
+    "setup": "L D'",
+    "commutator": "[R' D' R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "FX-方",
+    "antiCode": "XF-刑",
+    "setup": "U2 R U R'",
+    "commutator": "[R' D' R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "FY-印",
+    "antiCode": "YF-孕",
+    "setup": "L D'",
+    "commutator": "[R' D R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "FZ-凤",
+    "antiCode": "ZF-脂",
+    "setup": "R'",
+    "commutator": "[R' U R,D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "GW-购",
+    "antiCode": "WG-鳖",
+    "setup": "x",
+    "commutator": "[R D R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "GM-挂",
+    "antiCode": "MG-芒",
+    "setup": "/",
+    "commutator": "[R' D R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "GN-gun",
+    "antiCode": "NG-南",
+    "setup": "D",
+    "commutator": "[R' D' R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "GO-渠",
+    "antiCode": "OG-栓",
+    "setup": "L' D",
+    "commutator": "[R' D' R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "GP-瓜",
+    "antiCode": "PG-屁",
+    "setup": "D’",
+    "commutator": "[R' D R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "GQ-枸",
+    "antiCode": "QG-切",
+    "setup": "/",
+    "commutator": "[R D' R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "GR-连",
+    "antiCode": "RG-染",
+    "setup": "U R D' R'",
+    "commutator": "[R' D R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "GS-刷",
+    "antiCode": "SG-柜",
+    "setup": "/",
+    "commutator": "[R D R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "GT-骨",
+    "antiCode": "TG-改",
+    "setup": "D",
+    "commutator": "[R' D' R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "GX-纤",
+    "antiCode": "XG-峡",
+    "setup": "U' R' D R",
+    "commutator": "[R D' R',U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "GY-音",
+    "antiCode": "YG-腰",
+    "setup": "D'",
+    "commutator": "[R' D R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "GZ-蔗",
+    "antiCode": "ZG-针",
+    "setup": "/",
+    "commutator": "[R' D' R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "HW-腕",
+    "antiCode": "WH-无",
+    "setup": "D' R U'",
+    "commutator": "[R' U R,D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "HM-堡",
+    "antiCode": "MH-棉",
+    "setup": "R' U",
+    "commutator": "[R U' R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "HN-毁",
+    "antiCode": "NH-捏",
+    "setup": "R' F",
+    "commutator": "[R U' R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "HO-猴",
+    "antiCode": "OH-单",
+    "setup": "R U'",
+    "commutator": "[R' U R,D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "HP-画",
+    "antiCode": "PH-衡",
+    "setup": "D R' U",
+    "commutator": "[R U' R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "HQ-花",
+    "antiCode": "QH-青",
+    "setup": "U' R U",
+    "commutator": "[R' U' R,D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "HR-害",
+    "antiCode": "RH-润",
+    "setup": "D R U'",
+    "commutator": "[R' U R,D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "HS-护",
+    "antiCode": "SH-屎",
+    "setup": "U' R U / BR'",
+    "commutator": "[R' U' R,D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "HT-焊",
+    "antiCode": "TH-昙",
+    "setup": "R U'",
+    "commutator": "[R' U R,D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "HX-彗",
+    "antiCode": "XH-号",
+    "setup": "U R' U'",
+    "commutator": "[R U R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "HY-豁",
+    "antiCode": "YH-灰",
+    "setup": "D' R' U",
+    "commutator": "[R U' R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "HZ-妆",
+    "antiCode": "ZH-着",
+    "setup": "R' U",
+    "commutator": "[R U' R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "IW-表",
+    "antiCode": "WI-堂",
+    "setup": "U' R'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "IM-讯",
+    "antiCode": "MI-米",
+    "setup": "U R U/U'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "IN-入",
+    "antiCode": "NI-泥",
+    "setup": "R D R' U'",
+    "commutator": "[R' U' R,D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "IO-流",
+    "antiCode": "OI-油",
+    "setup": "D U' R'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "IP-址",
+    "antiCode": "PI-猪",
+    "setup": "U' R' U/U'",
+    "commutator": "[R D' R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "IQ-智",
+    "antiCode": "QI-起",
+    "setup": "R' F' R",
+    "commutator": "[R D' R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "IR-钢",
+    "antiCode": "RI-日",
+    "setup": "F'",
+    "commutator": "[R D R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "IS-圣",
+    "antiCode": "SI-寺",
+    "setup": "R' F' R",
+    "commutator": "[R D R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "IT-码",
+    "antiCode": "TI-蹄",
+    "setup": "D U R",
+    "commutator": "[R D' R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "IX-扎",
+    "antiCode": "XI-席",
+    "setup": "D' U' R'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "IY-弓",
+    "antiCode": "YI-椅",
+    "setup": "U' R' U/U'",
+    "commutator": "[R D R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "IZ-簧",
+    "antiCode": "ZI-自",
+    "setup": "R' F' R U/U'",
+    "commutator": "[R' D' R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "WO-头",
+    "antiCode": "OW-枭",
+    "setup": "R' F2 R",
+    "commutator": "[R D' R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "WP-卧",
+    "antiCode": "PW-趴",
+    "setup": "U R' F R",
+    "commutator": "[R D' R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "WQ-围",
+    "antiCode": "QW-缺",
+    "setup": "R D R' F",
+    "commutator": "[R U' R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "WR-五",
+    "antiCode": "RW-丸",
+    "setup": "U R' F R",
+    "commutator": "[R D R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "WS-卫",
+    "antiCode": "SW-吃",
+    "setup": "U' R'",
+    "commutator": "[R' D R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "WT-弯",
+    "antiCode": "TW-闽",
+    "setup": "R U",
+    "commutator": "[R U R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "WX-蜡",
+    "antiCode": "XW-显",
+    "setup": "U' R' F'",
+    "commutator": "[R U' R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "WY-麦",
+    "antiCode": "YW-渔",
+    "setup": "R D' R U'",
+    "commutator": "[R' U R,D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "WZ-袜",
+    "antiCode": "ZW-网",
+    "setup": "R D",
+    "commutator": "[R' D' R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "MO-猫",
+    "antiCode": "OM-溢",
+    "setup": "F2 D",
+    "commutator": "[R U R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "MP-铭",
+    "antiCode": "PM-拍",
+    "setup": "D U",
+    "commutator": "[R U' R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "MQ-煤",
+    "antiCode": "QM-曲",
+    "setup": "R' D",
+    "commutator": "[F',R D' R' D]",
+    "alg": "R' D F' D' R D R' F R D'",
+    "antiAlg": "D R' F' R D' R' D F D' R"
+  },
+  {
+    "code": "MR-满",
+    "antiCode": "RM-揉",
+    "setup": "F'",
+    "commutator": "[R U' R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "MS-蟒",
+    "antiCode": "SM-烟",
+    "setup": "R' U",
+    "commutator": "[R U R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "MT-木",
+    "antiCode": "TM-藤",
+    "setup": "R' U2",
+    "commutator": "[R U' R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "MX-蜜",
+    "antiCode": "XM-朽",
+    "setup": "U' R' D R",
+    "commutator": "[R D' R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "MY-钥",
+    "antiCode": "YM-棒",
+    "setup": "U",
+    "commutator": "[R U' R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "MZ-帽",
+    "antiCode": "ZM-麻",
+    "setup": "U' R' F",
+    "commutator": "[R U' R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "NO-no",
+    "antiCode": "ON-洋",
+    "setup": "F R U'",
+    "commutator": "[R D' R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "NP-女",
+    "antiCode": "PN-盘",
+    "setup": "R' F' R D'",
+    "commutator": "[R D R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "NQ-牛",
+    "antiCode": "QN-寝",
+    "setup": "L'",
+    "commutator": "[R' D R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "NR-内",
+    "antiCode": "RN-瓤",
+    "setup": "D R",
+    "commutator": "[R D' R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "NS-素",
+    "antiCode": "SN-太",
+    "setup": "R' F' R",
+    "commutator": "[R D R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "NT-田",
+    "antiCode": "TN-鸵",
+    "setup": "F",
+    "commutator": "[R U' R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "NX-脓",
+    "antiCode": "XN-旋",
+    "setup": "R U' R'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "NY-碾",
+    "antiCode": "YN-淤",
+    "setup": "F",
+    "commutator": "[R U' R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "NZ-闹",
+    "antiCode": "ZN-枣",
+    "setup": "/",
+    "commutator": "[R U R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "OR-橘",
+    "antiCode": "RO-瑞",
+    "setup": "R U' R'",
+    "commutator": "[R' U R,D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "OS-瑰",
+    "antiCode": "SO-锁",
+    "setup": "U' R' D'",
+    "commutator": "[R D R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "OT-锅",
+    "antiCode": "TO-唾",
+    "setup": "R2 U'",
+    "commutator": "[R' U' R,D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "OX-偶",
+    "antiCode": "XO-陈",
+    "setup": "R U' R' U/U'",
+    "commutator": "[R D' R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "OY-豆",
+    "antiCode": "YO-柚",
+    "setup": "R2 U'",
+    "commutator": "[R' U R,D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "OZ-盎",
+    "antiCode": "ZO-粽",
+    "setup": "R",
+    "commutator": "[R D' R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "PR-壤",
+    "antiCode": "RP-片",
+    "setup": "U' R' U R",
+    "commutator": "[R D' R',U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "PS-披",
+    "antiCode": "SP-碎",
+    "setup": "U'",
+    "commutator": "[R' U' R,D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "PT-葡",
+    "antiCode": "TP-回",
+    "setup": "D' R' U",
+    "commutator": "[R U R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "PX-蟹",
+    "antiCode": "XP-芯",
+    "setup": "D' U' R'",
+    "commutator": "[R' D R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "PY-炮",
+    "antiCode": "YP-优",
+    "setup": "D' R' U",
+    "commutator": "[R U R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "PZ-栽",
+    "antiCode": "ZP-帐",
+    "setup": "L",
+    "commutator": "[R' D' R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "QR-掐",
+    "antiCode": "RQ-燃",
+    "setup": "R D' R'",
+    "commutator": "[R' D R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "QS-泉",
+    "antiCode": "SQ-手",
+    "setup": "R' U R",
+    "commutator": "[R D' R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "QT-筒",
+    "antiCode": "TQ-桌",
+    "setup": "U2",
+    "commutator": "[R' U R,D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "QX-禧",
+    "antiCode": "XQ-钱",
+    "setup": "D' R U",
+    "commutator": "[R U R',D]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "QY-券",
+    "antiCode": "YQ-漆",
+    "setup": "U R U'",
+    "commutator": "[R D' R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "QZ-裙",
+    "antiCode": "ZQ-蒸",
+    "setup": "R D'",
+    "commutator": "[R D R',U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "RX-溶",
+    "antiCode": "XR-仁",
+    "setup": "F' R U/U'",
+    "commutator": "[R' D' R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "RY-液",
+    "antiCode": "YR-猿",
+    "setup": "U R D'",
+    "commutator": "[R' D R,U']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "RZ-乳",
+    "antiCode": "ZR-肉",
+    "setup": "D' R U' R'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "SX-萨",
+    "antiCode": "XS-雪",
+    "setup": "R U' D' R'",
+    "commutator": "[R' D R,U2]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "SY-长",
+    "antiCode": "YS-对",
+    "setup": "U",
+    "commutator": "[R U' R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "SZ-镯",
+    "antiCode": "ZS-钻",
+    "setup": "R' U",
+    "commutator": "[R U R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "TX-脱",
+    "antiCode": "XT-腿",
+    "setup": "D' R D",
+    "commutator": "[R' D' R,U]",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "TY-并",
+    "antiCode": "YT-樱",
+    "setup": "R U R' U'",
+    "commutator": "[R U' R',D']",
+    "alg": null,
+    "antiAlg": null
+  },
+  {
+    "code": "TZ-天",
+    "antiCode": "ZT-枕",
+    "setup": "/",
+    "commutator": "[R U R',D']",
+    "alg": null,
+    "antiAlg": null
+  }
+]

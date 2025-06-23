@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CoupleSafeTypingQuiz 前端版</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .section { margin-bottom: 20px; }
+        input[type=text] { width: 300px; padding: 6px; font-size: 16px; }
+        button { padding: 6px 12px; font-size: 16px; }
+        .correct { color: green; }
+        .wrong { color: red; }
+        .hint { color: #888; font-size: 14px; }
+    </style>
+</head>
+<body>
+
+<h2>🔠 路径输入测验（Couple Safe Typing Quiz）</h2>
+
+<div class="section">
+    <strong>👉 棱：</strong><span id="edgeDisplay"></span> <span class="hint" id="edgeHint"></span><br>
+    <strong>👉 角：</strong><span id="cornerDisplay"></span> <span class="hint" id="cornerHint"></span>
+</div>
+
+<div class="section">
+    <label>请输入路径（不含空格）:</label><br>
+    <input type="text" id="answerInput" autocomplete="off" />
+    <button onclick="checkAnswer()">提交</button>
+</div>
+
+<div class="section" id="resultBox"></div>
+
+<script>
+    let edges = [], corners = [];
+    let edgePath = {}, cornerPath = {};
+
+    async function loadData() {
+        const edgesData = await fetch('dataEdges.json').then(res => res.json());
+        const cornersData = await fetch('dataCorners.json').then(res => res.json());
+
+        // 把 code 和 antiCode 拼成 "code-antiCode"
+        edges = edgesData.flatMap(obj => [obj.code + "-" + obj.antiCode]);
+        corners = cornersData.flatMap(obj => [obj.code + "-" + obj.antiCode]);
+
+        generateQuestion();
+    }
+
+    function generatePath(sourceList, count) {
+        const shuffled = [...sourceList].sort(() => Math.random() - 0.5).slice(0, count);
+        const codes = shuffled.map(s => s.split("-")[0]);
+        const hints = shuffled.map(s => s.split("-")[1]);
+        return {
+            display: codes.join(" "),
+            raw: codes.join(""),
+            hint: `(${hints.join("")})`
+        };
+    }
+
+    function generateQuestion() {
+        edgePath = generatePath(edges, 7);
+        cornerPath = generatePath(corners, 5);
+
+        document.getElementById("edgeDisplay").textContent = edgePath.display;
+        document.getElementById("cornerDisplay").textContent = cornerPath.display;
+        document.getElementById("edgeHint").textContent = edgePath.hint;
+        document.getElementById("cornerHint").textContent = cornerPath.hint;
+        document.getElementById("answerInput").value = "";
+        document.getElementById("resultBox").innerHTML = "";
+    }
+
+    function checkAnswer() {
+        const userInput = document.getElementById("answerInput").value.trim().toUpperCase();
+        const correct = edgePath.raw + cornerPath.raw;
+
+        if (userInput === correct) {
+            document.getElementById("resultBox").innerHTML = `<p class="correct">✅ 正确！</p>`;
+        } else {
+            document.getElementById("resultBox").innerHTML =
+                `<p class="wrong">❌ 错误！正确答案是：<code>${correct}</code></p>`;
+        }
+
+        setTimeout(generateQuestion, 3000);
+    }
+
+    document.getElementById("answerInput").addEventListener("keydown", function (e) {
+        if (e.key === "Enter") {
+            checkAnswer();
+        }
+    });
+
+    loadData();
+</script>
+
+</body>
+</html>
