@@ -2,33 +2,115 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>CoupleSafeTypingQuiz 前端版</title>
+    <title>盲拧编码记忆联系工具</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body { font-family: sans-serif; padding: 20px; }
-        .section { margin-bottom: 20px; }
-        input[type=text] { width: 300px; padding: 6px; font-size: 16px; }
-        button { padding: 6px 12px; font-size: 16px; }
-        .correct { color: green; }
-        .wrong { color: red; }
-        .hint { color: #888; font-size: 14px; }
+        :root {
+            --font-lg: 1.5rem;
+            --font-md: 1rem;
+            --font-sm: 0.875rem;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 1.5rem;
+            background: #f9f9f9;
+            color: #333;
+        }
+
+        h2 {
+            font-size: var(--font-lg);
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .quiz-box {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .row {
+            margin-bottom: 1.2rem;
+        }
+
+        .label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .hint {
+            color: #999;
+            font-size: var(--font-sm);
+            margin-left: 0.5rem;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 0.5rem;
+            font-size: var(--font-md);
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-top: 0.5rem;
+            padding: 0.5rem 1rem;
+            font-size: var(--font-md);
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .correct {
+            color: green;
+            font-weight: bold;
+        }
+
+        .wrong {
+            color: red;
+            font-weight: bold;
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 1rem;
+            }
+
+            .quiz-box {
+                padding: 1rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
     </style>
 </head>
 <body>
 
-<h2>🔠 路径输入测验（Couple Safe Typing Quiz）</h2>
+<div class="quiz-box">
+    <h2>🔠 盲拧编码记忆联系工具</h2>
 
-<div class="section">
-    <strong>👉 棱：</strong><span id="edgeDisplay"></span> <span class="hint" id="edgeHint"></span><br>
-    <strong>👉 角：</strong><span id="cornerDisplay"></span> <span class="hint" id="cornerHint"></span>
+    <div class="row">
+        <span class="label">👉 棱：<span id="edgeDisplay"></span><span class="hint" id="edgeHint"></span></span>
+        <span class="label">👉 角：<span id="cornerDisplay"></span><span class="hint" id="cornerHint"></span></span>
+    </div>
+
+    <div class="row">
+        <label for="answerInput" class="label">请输入棱+角的全编码（不含空格）:</label>
+        <input type="text" id="answerInput" autocomplete="off" />
+        <button onclick="checkAnswer()">验证</button>
+    </div>
+
+    <div class="row" id="resultBox"></div>
 </div>
-
-<div class="section">
-    <label>请输入路径（不含空格）:</label><br>
-    <input type="text" id="answerInput" autocomplete="off" />
-    <button onclick="checkAnswer()">提交</button>
-</div>
-
-<div class="section" id="resultBox"></div>
 
 <script>
     let edges = [], corners = [];
@@ -38,9 +120,9 @@
         const edgesData = await fetch('dataEdges.json').then(res => res.json());
         const cornersData = await fetch('dataCorners.json').then(res => res.json());
 
-        // 把 code 和 antiCode 拼成 "code-antiCode"
-        edges = edgesData.flatMap(obj => [obj.code + "-" + obj.antiCode]);
-        corners = cornersData.flatMap(obj => [obj.code + "-" + obj.antiCode]);
+        // 合并 code 和 antiCode 为一组
+        edges = edgesData.map(obj => obj.code + "-" + obj.antiCode);
+        corners = cornersData.map(obj => obj.code + "-" + obj.antiCode);
 
         generateQuestion();
     }
@@ -61,10 +143,12 @@
         cornerPath = generatePath(corners, 5);
 
         document.getElementById("edgeDisplay").textContent = edgePath.display;
-        document.getElementById("cornerDisplay").textContent = cornerPath.display;
         document.getElementById("edgeHint").textContent = edgePath.hint;
+        document.getElementById("cornerDisplay").textContent = cornerPath.display;
         document.getElementById("cornerHint").textContent = cornerPath.hint;
+
         document.getElementById("answerInput").value = "";
+        document.getElementById("answerInput").focus();
         document.getElementById("resultBox").innerHTML = "";
     }
 
@@ -75,11 +159,10 @@
         if (userInput === correct) {
             document.getElementById("resultBox").innerHTML = `<p class="correct">✅ 正确！</p>`;
         } else {
-            document.getElementById("resultBox").innerHTML =
-                `<p class="wrong">❌ 错误！正确答案是：<code>${correct}</code></p>`;
+            document.getElementById("resultBox").innerHTML = `<p class="wrong">❌ 错误！正确答案是：<code>${correct}</code></p>`;
         }
 
-        setTimeout(generateQuestion, 3000);
+        setTimeout(generateQuestion, 1500);
     }
 
     document.getElementById("answerInput").addEventListener("keydown", function (e) {
