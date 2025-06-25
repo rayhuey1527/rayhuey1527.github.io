@@ -616,7 +616,7 @@
     "antiAlg": null
   },
   {
-    "code": "EQ-均",
+    "code": "EQ-铜",
     "antiCode": "QE-茄",
     "setup": "R D'",
     "commutator": "[R D R',U]",
