@@ -393,7 +393,7 @@
   },
   {
     "code": "EP-癫",
-    "antiCode": "PE-普",
+    "antiCode": "PE-棚",
     "setup": "U/U'",
     "commutator": "[R' E' R, U2]",
     "alg": "U'R'E'RU2R'ERU'",
@@ -689,7 +689,7 @@
   },
   {
     "code": "GS-刷",
-    "antiCode": "SG-柜",
+    "antiCode": "SG-书",
     "setup": "R2 U' R/R'",
     "commutator": "[E R2 E' R'2]",
     "alg": "R2U'RER2E'RUR2",
@@ -880,7 +880,7 @@
     "antiAlg": "rD'MU2M'U2Dr'\r"
   },
   {
-    "code": "IM-讯",
+    "code": "IM-锣",
     "antiCode": "MI-米",
     "setup": "M'",
     "commutator": "[M' U2 M U2]",
@@ -1481,7 +1481,7 @@
   },
   {
     "code": "OX-偶",
-    "antiCode": "XO-陈",
+    "antiCode": "XO-杯",
     "setup": "u' R/R'",
     "commutator": "[E R2 E' R'2]",
     "alg": "u'RER2E'Ru",
@@ -1649,7 +1649,7 @@
   },
   {
     "code": "RY-液",
-    "antiCode": "YR-猿",
+    "antiCode": "YR-羊",
     "setup": "/",
     "commutator": "[R' U' R, E]",
     "alg": "FRS'R'F'RSR'",
