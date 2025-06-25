@@ -344,7 +344,7 @@
     "antiAlg": "M'U2MU2\r"
   },
   {
-    "code": "EJ-pɒ",
+    "code": "EJ-鹅",
     "antiCode": "JE-解",
     "setup": "R' F'",
     "commutator": "[R U R', E]",
@@ -384,7 +384,7 @@
     "antiAlg": "MUR'F'RSR'FRS'U'M'\r"
   },
   {
-    "code": "EO-频",
+    "code": "EO-屏",
     "antiCode": "OE-鞋",
     "setup": "U'",
     "commutator": "[S R2 S' R2]",
@@ -648,7 +648,7 @@
     "antiAlg": "RU'R'UM2U'R'UR'M2\r"
   },
   {
-    "code": "GN-gun",
+    "code": "GN-杠",
     "antiCode": "NG-南",
     "setup": "/",
     "commutator": "/",
@@ -1393,7 +1393,7 @@
   },
   {
     "code": "NS-素",
-    "antiCode": "SN-太",
+    "antiCode": "SN-蛇",
     "setup": "U2",
     "commutator": "[U' L U, M]",
     "alg": "UL'UMU'LUM'U2",

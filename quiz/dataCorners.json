@@ -80,7 +80,7 @@
     "antiAlg": null
   },
   {
-    "code": "AP-pòu",
+    "code": "AP-果",
     "antiCode": "PA-耙",
     "setup": "D",
     "commutator": "[R' D R,U']",
@@ -168,7 +168,7 @@
     "antiAlg": null
   },
   {
-    "code": "BG-裹",
+    "code": "BG-格",
     "antiCode": "GB-巴",
     "setup": "R",
     "commutator": "[R D R',U2]",
@@ -600,7 +600,7 @@
     "antiAlg": null
   },
   {
-    "code": "EO-频",
+    "code": "EO-屏",
     "antiCode": "OE-鞋",
     "setup": "R",
     "commutator": "[R D' R',U]",
@@ -808,7 +808,7 @@
     "antiAlg": null
   },
   {
-    "code": "GN-gun",
+    "code": "GN-杠",
     "antiCode": "NG-南",
     "setup": "D",
     "commutator": "[R' D' R,U]",
@@ -1257,7 +1257,7 @@
   },
   {
     "code": "NS-素",
-    "antiCode": "SN-太",
+    "antiCode": "SN-蛇",
     "setup": "R' F' R",
     "commutator": "[R D R',U']",
     "alg": null,
