@@ -825,7 +825,7 @@
   },
   {
     "code": "GP-瓜",
-    "antiCode": "PG-屁",
+    "antiCode": "PG-猪",
     "setup": "D’",
     "commutator": "[R' D R,U]",
     "alg": null,
@@ -1017,7 +1017,7 @@
   },
   {
     "code": "IP-址",
-    "antiCode": "PI-猪",
+    "antiCode": "PI-屁",
     "setup": "U' R' U/U'",
     "commutator": "[R D' R',U2]",
     "alg": null,
