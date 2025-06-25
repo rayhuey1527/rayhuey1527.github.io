@@ -705,7 +705,7 @@
   },
   {
     "code": "GW-购",
-    "antiCode": "WG-鳖",
+    "antiCode": "WG-龟",
     "setup": "/",
     "commutator": "[R' E2 R, U']",
     "alg": "U'R'E2RUR'E2R",
@@ -1105,7 +1105,7 @@
   },
   {
     "code": "KO-孔",
-    "antiCode": "OK-中",
+    "antiCode": "OK-钟",
     "setup": "U'",
     "commutator": "[S' R2 S R2]",
     "alg": "D'M'U2M'U2M2D",
@@ -1456,7 +1456,7 @@
     "antiAlg": "E'U'RER2E'RUE\r"
   },
   {
-    "code": "OS-瑰",
+    "code": "OS-台",
     "antiCode": "SO-锁",
     "setup": "U' R/R'",
     "commutator": "[E R2 E' R'2]",

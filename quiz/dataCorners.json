@@ -793,7 +793,7 @@
   },
   {
     "code": "GW-购",
-    "antiCode": "WG-鳖",
+    "antiCode": "WG-龟",
     "setup": "x",
     "commutator": "[R D R',U2]",
     "alg": null,
@@ -1304,7 +1304,7 @@
     "antiAlg": null
   },
   {
-    "code": "OS-瑰",
+    "code": "OS-台",
     "antiCode": "SO-锁",
     "setup": "U' R' D'",
     "commutator": "[R D R',U']",
