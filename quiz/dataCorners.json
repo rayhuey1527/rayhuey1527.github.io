@@ -1161,7 +1161,7 @@
   },
   {
     "code": "MP-铭",
-    "antiCode": "PM-拍",
+    "antiCode": "PM-牌",
     "setup": "D U",
     "commutator": "[R U' R',D]",
     "alg": null,
