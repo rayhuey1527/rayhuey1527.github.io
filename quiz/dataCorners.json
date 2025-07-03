@@ -1424,7 +1424,7 @@
     "antiAlg": null
   },
   {
-    "code": "QY-券",
+    "code": "QY-墙",
     "antiCode": "YQ-漆",
     "setup": "U R U'",
     "commutator": "[R D' R',U']",
