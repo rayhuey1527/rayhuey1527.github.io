@@ -1600,7 +1600,7 @@
     "antiAlg": "R2E'R'U'RER'U R'\r"
   },
   {
-    "code": "QY-券",
+    "code": "QY-墙",
     "antiCode": "YQ-漆",
     "setup": "U R/R'",
     "commutator": "[S R2 S' R2]",
