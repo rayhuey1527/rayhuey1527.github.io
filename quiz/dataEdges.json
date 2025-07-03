@@ -1241,7 +1241,7 @@
   },
   {
     "code": "LT-浪",
-    "antiCode": "TL-螺",
+    "antiCode": "TL-土",
     "setup": "S U'",
     "commutator": "[R' E R, U']",
     "alg": "SU'R'ERU'R'E'RUUS'",
