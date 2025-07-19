@@ -1449,7 +1449,7 @@
   },
   {
     "code": "RY-液",
-    "antiCode": "YR-羊",
+    "antiCode": "YR-蛹",
     "setup": "U R D'",
     "commutator": "[R' D R,U']",
     "alg": null,
