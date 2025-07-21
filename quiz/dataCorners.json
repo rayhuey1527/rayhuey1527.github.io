@@ -696,7 +696,7 @@
     "antiAlg": null
   },
   {
-    "code": "FW-窝",
+    "code": "FW-花",
     "antiCode": "WF-文",
     "setup": "U' R'",
     "commutator": "[R' D R,U']",
@@ -928,7 +928,7 @@
     "antiAlg": null
   },
   {
-    "code": "HQ-花",
+    "code": "HQ-庆",
     "antiCode": "QH-青",
     "setup": "U' R U",
     "commutator": "[R' U' R,D']",
@@ -1080,7 +1080,7 @@
     "antiAlg": null
   },
   {
-    "code": "WO-头",
+    "code": "WO-窝",
     "antiCode": "OW-枭",
     "setup": "R' F2 R",
     "commutator": "[R D' R',U2]",
